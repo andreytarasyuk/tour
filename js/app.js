@@ -27,6 +27,13 @@ $(document).ready(function() {
 			scrollTop: $(anchor.attr('href')).offset().top
 		}, 1000);
 	});
+	// mansory
+	$('.slider-case').masonry({
+		columnWidth: '.case__item-sizer',
+		horizontalOrder: true,
+		itemSelector: '.case__item',
+		percentPosition: true
+	});
 
 	// slider
 	$('#js-slider').slick({
@@ -36,19 +43,11 @@ $(document).ready(function() {
 		appendArrows:$('.slider__arrows'),
 		responsive: [
 		{
-			breakpoint: 1200,
+			breakpoint: 992,
 			settings: {
 				slidesToShow: 3,
 				slidesToScroll: 1,
-				arrows: true
-			}
-		},
-		{
-			breakpoint: 992,
-			settings: {
-				slidesToShow: 2,
-				slidesToScroll: 1,
-				arrows: true
+				appendArrows:$('.slider__arrows-m')
 			}
 		},
 		{
@@ -56,7 +55,8 @@ $(document).ready(function() {
 			settings: {
 				slidesToShow: 1,
 				slidesToScroll: 1,
-				arrows: false
+				arrows: true,
+				appendArrows:$('.slider__arrows-m')
 			}
 		}
 		]
@@ -74,7 +74,17 @@ $(document).ready(function() {
 		slidesToScroll: 1,
 		arrows: false,
 		fade: true,
-		asNavFor: '.js-slider-nav'
+		asNavFor: '.js-slider-nav',
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: true
+			}
+		}
+		]
 	});
 	$('.js-slider-nav').slick({
 		slidesToShow: 4,
@@ -89,7 +99,56 @@ $(document).ready(function() {
 		slidesToScroll: 1,
 		draggable: false,
 		arrows: true,
-		appendArrows:$('.doing-arrows')
+		appendArrows:$('.doing-arrows'),
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1
+			}
+		},
+		{
+			breakpoint: 651,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: true,
+				appendArrows:$('.doing-arrows')
+
+			}
+		}
+		]
+	});
+	$('#js-slider-case').slick({
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		draggable: false,
+		arrows: false,
+		responsive: [
+		{
+			breakpoint: 9999,
+			settings: 'unslick'
+		},
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1,
+				arrows: true,
+				appendArrows:$('.slider-case-arrows')
+			}
+		},
+		{
+			breakpoint: 569,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: true,
+				appendArrows:$('.slider-case-arrows')
+			}
+		}
+		]
 	});
 	$('#js-slider-top').slick({
 		slidesToShow: 1,
@@ -101,6 +160,9 @@ $(document).ready(function() {
 
 	$('.answer-btn').click(function () {
 		$(this).toggleClass('active')
+	});
+	$('#js-btn-toggle').click(function () {
+		$('.travels-toggle-m').slideToggle();
 	});
 });
 

@@ -22,17 +22,18 @@
 <header class="header">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
-				<a href="#" class="logo header-logo">
-					<img src="img/logo-header.png" alt="logo">
-				</a>
-			</div>
-			<div class="col-md-6 text-right">
+			<div class="col-md-6 text-right pull-right">
 				<div class="header__contacts">
 					<a href="tel:+74991223112" class="phone">+7 (499) 122-3-112</a>
 					<p>с понедельника по субботу с 10 до 19 <br /> для отдыхающих ежедневно 24/7</p>
 				</div>
 				<a href="#" class="btn header-btn"><span>Обратный звонок</span></a>
+			</div>
+			<div class="col-md-6">
+				<a href="#" class="logo header-logo">
+					<img src="img/logo-header.png" class="logo-img" alt="logo">
+					<img src="img/logo-header-m.png" class="logo-img-m" alt="logo">
+				</a>
 			</div>
 		</div>
 	</div>
@@ -54,33 +55,33 @@
 						<div class="preview__block">
 							<div class="title">
 								<h1>Туры <br /> на Мальдивы</h1>
+								<p>Эксклюзивные путешествия + круглосуточная поддержка. <br /> Наши эксперты 6 раз были на Мальдивах и знают о них все.</p>
 							</div>
-							<p>Эксклюзивные путешествия + круглосуточная поддержка. <br /> Наши эксперты 6 раз были на Мальдивах и знают о них все.</p>
 							<div class="preview__form">
 								<form action="/" class="form">
 									<div class="row">
-										<div class="col-md-6">
+										<div class="col-xs-6">
 											<div class="form-group">
 												<div class="form-input">
 													<input type="text" class="form-control" placeholder="Ваш телефон">
 												</div>
 											</div>
 										</div>
-										<div class="col-md-6">
+										<div class="col-xs-6">
 											<div class="form-group">
 												<div class="form-input">
 													<input type="text" class="form-control" placeholder="Даты пребывания">
 												</div>
 											</div>
 										</div>
-										<div class="col-md-6">
+										<div class="col-xs-6">
 											<div class="form-group">
 												<div class="form-input">
 													<input type="text" class="form-control" placeholder="Кол-во человек">
 												</div>
 											</div>
 										</div>
-										<div class="col-md-6">
+										<div class="col-xs-6">
 											<div class="form-group text-center">
 												<button type="submit" class="btn btn-form"><span>Рассчитать <br />стоимость</span></button>
 											</div>
@@ -88,14 +89,14 @@
 									</div>
 								</form>
 								<div class="preview__form-bottom">
-									<div class="row">
-										<div class="col-md-6">
-											<a href="#" class="preview__form-btn"><i class="icon icon-arrow-form"></i>Развернуть форму</a>
+									<div class="row clearfix">
+										<div class="col-md-6 pull-right">
+											<p class="preview__form-text">
+												Оставляя заявку, вы даете согласие на обработку <a href="#">персональных данных</a>
+											</p>
 										</div>
 										<div class="col-md-6">
-											<p class="preview__form-text">
-												Оставляя заявку, вы даете согласие <br />на обработку <a href="#">персональных данных</a>
-											</p>
+											<a href="#" class="preview__form-btn"><i class="icon icon-arrow-form"></i>Развернуть форму</a>
 										</div>
 									</div>
 								</div>
@@ -118,63 +119,88 @@
 									<div class="travels__block">
 										<div class="title travels-title"><h2>Организуем путешествия <br />по 40 странам</h2></div>
 										<div class="travels__list">
-											<div class="row">
-												<div class="col-md-3">
-													<ul class="list">
-														<li><a href="#">Мальдивские острова</a></li>
-														<li><a href="#">Сейшельские острова</a></li>
-														<li><a href="#">Мексика</a></li>
-														<li><a href="#">Багамские острова</a></li>
-														<li><a href="#">Шри-Ланка</a></li>
-														<li><a href="#">Мальдивские острова</a></li>
-														<li><a href="#">Сейшельские острова</a></li>
-														<li><a href="#">Мексика</a></li>
-														<li><a href="#">Багамские острова</a></li>
-														<li><a href="#">Шри-Ланка</a></li>
-													</ul>
+											<div class="travels-toggle">
+												<div class="row">
+													<div class="col-md-3 col-xs-4">
+														<ul class="list">
+															<li><a href="#"><span>Мальдивские острова</span></a></li>
+															<li><a href="#"><span>Сейшельские острова</span></a></li>
+															<li><a href="#"><span>Мексика</span></a></li>
+															<li><a href="#"><span>Багамские острова</span></a></li>
+															<li><a href="#"><span>Шри-Ланка</span></a></li>
+														</ul>
+													</div>
+													<div class="col-md-3 col-xs-4">
+														<ul class="list">
+															<li><a href="#"><span>Мальдивские острова</span></a></li>
+															<li><a href="#"><span>Сейшельские острова</span></a></li>
+															<li><a href="#"><span>Мексика</span></a></li>
+															<li><a href="#"><span>Багамские острова</span></a></li>
+															<li><a href="#"><span>Шри-Ланка</span></a></li>
+														</ul>
+													</div>
+													<div class="col-md-3 col-xs-4">
+														<ul class="list">
+															<li><a href="#"><span>Мальдивские острова</span></a></li>
+															<li><a href="#"><span>Сейшельские острова</span></a></li>
+															<li><a href="#"><span>Мексика</span></a></li>
+															<li><a href="#"><span>Багамские острова</span></a></li>
+															<li><a href="#"><span>Шри-Ланка</span></a></li>
+														</ul>
+													</div>
+													<div class="col-md-3 col-xs-4">
+														<ul class="list">
+															<li><a href="#"><span>Мальдивские острова</span></a></li>
+															<li><a href="#"><span>Сейшельские острова</span></a></li>
+															<li><a href="#"><span>Мексика</span></a></li>
+															<li><a href="#"><span>Багамские острова</span></a></li>
+															<li><a href="#"><span>Шри-Ланка</span></a></li>
+														</ul>
+													</div>
 												</div>
-												<div class="col-md-3">
-													<ul class="list">
-														<li><a href="#">Мальдивские острова</a></li>
-														<li><a href="#">Сейшельские острова</a></li>
-														<li><a href="#">Мексика</a></li>
-														<li><a href="#">Багамские острова</a></li>
-														<li><a href="#">Шри-Ланка</a></li>
-														<li><a href="#">Мальдивские острова</a></li>
-														<li><a href="#">Сейшельские острова</a></li>
-														<li><a href="#">Мексика</a></li>
-														<li><a href="#">Багамские острова</a></li>
-														<li><a href="#">Шри-Ланка</a></li>
-													</ul>
+											</div>
+											<div class="travels-toggle travels-toggle-m">
+												<div class="row">
+													<div class="col-md-3 col-xs-4">
+														<ul class="list">
+															<li><a href="#"><span>Мальдивские острова</span></a></li>
+															<li><a href="#"><span>Сейшельские острова</span></a></li>
+															<li><a href="#"><span>Мексика</span></a></li>
+															<li><a href="#"><span>Багамские острова</span></a></li>
+															<li><a href="#"><span>Шри-Ланка</span></a></li>
+														</ul>
+													</div>
+													<div class="col-md-3 col-xs-4">
+														<ul class="list">
+															<li><a href="#"><span>Мальдивские острова</span></a></li>
+															<li><a href="#"><span>Сейшельские острова</span></a></li>
+															<li><a href="#"><span>Мексика</span></a></li>
+															<li><a href="#"><span>Багамские острова</span></a></li>
+															<li><a href="#"><span>Шри-Ланка</span></a></li>
+														</ul>
+													</div>
+													<div class="col-md-3 col-xs-4">
+														<ul class="list">
+															<li><a href="#"><span>Мальдивские острова</span></a></li>
+															<li><a href="#"><span>Сейшельские острова</span></a></li>
+															<li><a href="#"><span>Мексика</span></a></li>
+															<li><a href="#"><span>Багамские острова</span></a></li>
+															<li><a href="#"><span>Шри-Ланка</span></a></li>
+														</ul>
+													</div>
+													<div class="col-md-3 col-xs-4">
+														<ul class="list">
+															<li><a href="#"><span>Мальдивские острова</span></a></li>
+															<li><a href="#"><span>Сейшельские острова</span></a></li>
+															<li><a href="#"><span>Мексика</span></a></li>
+															<li><a href="#"><span>Багамские острова</span></a></li>
+															<li><a href="#"><span>Шри-Ланка</span></a></li>
+														</ul>
+													</div>
 												</div>
-												<div class="col-md-3">
-													<ul class="list">
-														<li><a href="#">Мальдивские острова</a></li>
-														<li><a href="#">Сейшельские острова</a></li>
-														<li><a href="#">Мексика</a></li>
-														<li><a href="#">Багамские острова</a></li>
-														<li><a href="#">Шри-Ланка</a></li>
-														<li><a href="#">Мальдивские острова</a></li>
-														<li><a href="#">Сейшельские острова</a></li>
-														<li><a href="#">Мексика</a></li>
-														<li><a href="#">Багамские острова</a></li>
-														<li><a href="#">Шри-Ланка</a></li>
-													</ul>
-												</div>
-												<div class="col-md-3">
-													<ul class="list">
-														<li><a href="#">Мальдивские острова</a></li>
-														<li><a href="#">Сейшельские острова</a></li>
-														<li><a href="#">Мексика</a></li>
-														<li><a href="#">Багамские острова</a></li>
-														<li><a href="#">Шри-Ланка</a></li>
-														<li><a href="#">Мальдивские острова</a></li>
-														<li><a href="#">Сейшельские острова</a></li>
-														<li><a href="#">Мексика</a></li>
-														<li><a href="#">Багамские острова</a></li>
-														<li><a href="#">Шри-Ланка</a></li>
-													</ul>
-												</div>
+											</div>
+											<div class="travels-toggle-btn">
+												<a href="#" class="preview__form-btn" id="js-btn-toggle"><i class="icon icon-arrow-form"></i>Смотреть все страны</a>
 											</div>
 										</div>
 									</div>
@@ -194,7 +220,7 @@
 					<div class="col-md-12 text-center">
 						<div class="title recommendations-title">
 							<img src="img/img-rec.png" alt="rec">
-							<h2>Рекомендуем только те отели <br />в которых были сами</h2>
+							<h2>Рекомендуем только те отели <span>в которых были сами</span></h2>
 							<p>Мы - компания с 7-летним опытом экзотического островного туризма</p>
 						</div>
 					</div>
@@ -265,7 +291,7 @@
 								</div>
 								<div class="tours__wrapper" style="border-image: url('img/bg-tours.png') 13 round round;">
 									<div class="title">
-										<h3>Индивидуальные <br />  туры</h3>
+										<h3>Индивидуальные <span>туры</span></h3>
 									</div>
 									<p>Это путешествия, которые создаются вручную под Ваш запрос и собираются из отдельных туристических услуг (авиаперелет, отель, трансфер, экскурсии, дополнительные услуги).</p>
 									<div class="tours__form">
@@ -286,7 +312,7 @@
 								</div>
 								<div class="tours__wrapper" style="border-image: url('img/bg-tours-blue.png') 13 round round;">
 									<div class="title">
-										<h3>Пакетные <br /> туры</h3>
+										<h3>Пакетные <span>туры</span></h3>
 									</div>
 									<p>Это готовые путевки на Мальдивы от ведущих туроператоров России из централизованной системы поиска, которая содержит более 300 000 вариантов.</p>
 									<div class="tours__form">
@@ -322,7 +348,7 @@
 					<div class="col-md-12">
 						<div class="title scenarios-title">
 							<div class="slider__arrows"></div>
-							<h2>15 сценариев, которые сделают вашу <br /> поездку яркой и запоминающейся</h2>
+							<h2>15 сценариев, которые сделают вашу <span>поездку яркой и запоминающейся</span></h2>
 						</div>
 					</div>
 					<div class="col-md-12">
@@ -439,6 +465,7 @@
 									</div>
 								</div>
 							</div>
+							<div class="slider__arrows-m clearfix"></div>
 						</div>
 					</div>
 				</div>
@@ -463,7 +490,7 @@
 								<div class="block-wrapper">
 									<div class="top-header clearfix">
 										<div class="title">
-											<h2><span class="number">топ 20</span><span class="text">любимых отелей <br /> наших клиентов</span></h2>
+											<h2><span class="number">Топ 20</span><span class="text">любимых отелей <br /> наших клиентов</span></h2>
 										</div>
 										<div class="img pull-right">
 											<img src="img/logo-top.png" alt="img">
@@ -472,19 +499,21 @@
 									<div class="top-control clearfix">
 										<p class="text">Всего в нашей базе 87 отелей на любой вкус:</p>
 										<div class="top-control-right pull-right">
-											<div class="top-select">
-												<select class="selectpicker" title="Тип отдыха">
-													<option>1</option>
-													<option>2</option>
-													<option>3</option>
-												</select>
-											</div>
-											<div class="top-select">
-												<select class="selectpicker" title="Категория отеля">
-													<option>Mustard</option>
-													<option>Ketchup</option>
-													<option>Relish</option>
-												</select>
+											<div class="top-select-wrapper">
+												<div class="top-select">
+													<select class="selectpicker" title="Тип отдыха">
+														<option>1</option>
+														<option>2</option>
+														<option>3</option>
+													</select>
+												</div>
+												<div class="top-select">
+													<select class="selectpicker" title="Категория отеля">
+														<option>Mustard</option>
+														<option>Ketchup</option>
+														<option>Relish</option>
+													</select>
+												</div>
 											</div>
 											<div class="top-arrows"></div>
 										</div>
@@ -554,7 +583,23 @@
 																			<p>за тур на двоих, 7 ночей, питание не включено</p>
 																		</div>
 																		<div class="col-md-6 text-right">
-																			<a href="#" class="btn btn-sm btn-pink"><span>получить предложение</span></a>
+																			<div class="top__mobile-wrapper">
+																				<div class="top__mobile">
+																					<a href="#">
+																						<div class="top__mobile-img">
+																							<i class="icon icon-photo"></i>
+																						</div>
+																						<span>Фото</span>
+																					</a>
+																					<a href="#">
+																						<div class="top__mobile-img">
+																							<i class="icon icon-video"></i>
+																						</div>
+																						<span>Видео</span>
+																					</a>
+																				</div>
+																				<a href="#" class="btn btn-sm btn-pink"><span>получить предложение</span></a>
+																			</div>
 																		</div>
 																	</div>
 																</div>
@@ -626,7 +671,23 @@
 																			<p>за тур на двоих, 7 ночей, питание не включено</p>
 																		</div>
 																		<div class="col-md-6 text-right">
-																			<a href="#" class="btn btn-sm btn-pink"><span>получить предложение</span></a>
+																			<div class="top__mobile-wrapper">
+																				<div class="top__mobile">
+																					<a href="#">
+																						<div class="top__mobile-img">
+																							<i class="icon icon-photo"></i>
+																						</div>
+																						<span>Фото</span>
+																					</a>
+																					<a href="#">
+																						<div class="top__mobile-img">
+																							<i class="icon icon-video"></i>
+																						</div>
+																						<span>Видео</span>
+																					</a>
+																				</div>
+																				<a href="#" class="btn btn-sm btn-pink"><span>получить предложение</span></a>
+																			</div>
 																		</div>
 																	</div>
 																</div>
@@ -658,7 +719,7 @@
 					<div class="col-md-12">
 						<div class="program__block">
 							<div class="row">
-								<div class="col-md-4 text-center padding">
+								<div class="col-xs-4 text-center padding">
 									<div class="program__item">
 										<div class="program__img">
 											<div class="img" style="top: 9px">
@@ -671,7 +732,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-4 text-center padding">
+								<div class="col-xs-4 text-center padding">
 									<div class="program__item">
 										<div class="program__img">
 											<div class="img" style="top: 34px">
@@ -684,7 +745,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-4 text-center padding">
+								<div class="col-xs-4 text-center padding">
 									<div class="program__item">
 										<div class="program__img">
 											<div class="img" style="top: 18px">
@@ -692,12 +753,12 @@
 											</div>
 										</div>
 										<div class="text">
-											<h5>Ваучер <br /> на бронь в отель</h5>
+											<h5>Ваучер <span>на бронь в отель</span></h5>
 											<p>Экспертиза выполненного проекта, как принято считать, изящно концентрирует контент</p>
 										</div>
 									</div>
 								</div>
-								<div class="col-md-4 text-center padding">
+								<div class="col-xs-4 text-center padding">
 									<div class="program__item">
 										<div class="program__img">
 											<div class="img" style="top: 23px">
@@ -710,7 +771,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-4 text-center padding">
+								<div class="col-xs-4 text-center col-md-offset padding">
 									<div class="program__item">
 										<div class="program__img">
 											<div class="img" style="top: 3px">
@@ -723,17 +784,15 @@
 										</div>
 									</div>
 								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-4 col-md-offset text-center padding">
+								<div class="col-xs-4 text-center padding">
 									<div class="program__item">
 										<div class="program__img">
 											<div class="img" style="top: 12px">
 												<img src="img/img-program05.png" alt="img">
 											</div>
 										</div>
-										<div class="text">
-											<h5>Информационная <br /> памятка</h5>
+										<div class="text text-m">
+											<h5><span class="mobile">Информационная</span> <span>памятка</span></h5>
 											<p>Экспертиза выполненного проекта, как принято считать, изящно концентрирует контент</p>
 										</div>
 									</div>
@@ -758,172 +817,196 @@
 					<div class="col-md-12">
 						<div class="case__block">
 							<div class="row">
-								<div class="col-md-3 padding">
-									<div class="case__item">
-										<div class="case__item-head">
-											<div class="img" style="background-image: url('img/img-case00.png');"></div>
-											<div class="text">
-												<span>01</span>
-												<p>Подбор и бронь отеля</p>
+								<div class="col-md-12">
+									<div class="case__slider">
+										<div class="slider-case">
+											<div class="case__item-sizer"></div>
+											<div class="slider" id="js-slider-case">
+												<div class="case__item">
+													<div class="case__item-wrapper">
+														<div class="case__item-head">
+															<div class="img" style="background-image: url('img/img-case00.png');"></div>
+															<div class="text">
+																<span>01</span>
+																<p>Подбор и бронь отеля</p>
+															</div>
+														</div>
+														<ul class="case__item-list">
+															<li><p>Расскажем о самых выгодных акциях и спецпредложениях</p></li>
+															<li><p>Подберем отель исходя из Ваших ожиданий от отдыха</p></li>
+															<li><p>Свяжемся напрямую с отелем, если нужно уточнить детали</p></li>
+															<li><p>Порекомендуем отели 4*, 5* и 5 deluxe, в которых мы были сами, либо были наши партнеры</p></li>
+															<li><p>Зарезервируем номер без предоплаты</p></li>
+														</ul>
+													</div>
+												</div>
+												<div class="case__item">
+													<div class="case__item-wrapper">
+														<div class="case__item-head">
+															<div class="img" style="background-image: url('img/img-case02.png');"></div>
+															<div class="text">
+																<span class="orange">02</span>
+																<p>Подбор и бронь авиабилетов</p>
+															</div>
+														</div>
+														<ul class="case__item-list">
+															<li><p>Выберем удобный перелет по датам и авиакомпаниям, никаких чартерных рейсов</p></li>
+															<li><p>Найдем прямой рейс или подходящие, минимальные по времени стыковки</p></li>
+															<li><p>Обеспечим самые низкие тарифы на дату</p></li>
+															<li><p>Бронируем без предоплаты</p></li>
+														</ul>
+													</div>
+												</div>
+												<div class="case__item">
+													<div class="case__item-wrapper">
+														<div class="case__item-head">
+															<div class="img" style="background-image: url('img/img-case03.png');"></div>
+															<div class="text">
+																<span class="green">03</span>
+																<p>Оформления документов</p>
+															</div>
+														</div>
+														<ul class="case__item-list">
+															<li><p>Оформим вовремя все необходимые документы для поездки </p></li>
+															<li><p>Расскажем, как заполнить миграционную карту по прилету</p></li>
+															<li><p>Поможем оформить туристическую визу, если срок пребывания на Мальдивах превысит 1 месяц</p></li>
+														</ul>
+													</div>
+												</div>
+												<div class="case__item">
+													<div class="case__item-wrapper">
+														<div class="case__item-head">
+															<div class="img" style="background-image: url('img/img-case04.png');"></div>
+															<div class="text">
+																<span class="yellow">04</span>
+																<p>Оформление страховки</p>
+															</div>
+														</div>
+														<ul class="case__item-list">
+															<li><p>Оформим медицинский полис от ведущих страховых компаний России на лучших условиях</p></li>
+															<li><p>Предложим расширенную страховку, если Вы увлечены активными видами отдыха</p></li>
+															<li><p>Оформим страховку от невыезда по Вашему желанию</p></li>
+														</ul>
+													</div>
+												</div>
+												<div class="case__item">
+													<div class="case__item-wrapper">
+														<div class="case__item-head">
+															<div class="img" style="background-image: url('img/img-case05.png');"></div>
+															<div class="text">
+																<span class="orange">05</span>
+																<p>Трансфер <br /> в аэропорт</p>
+															</div>
+														</div>
+														<ul class="case__item-list">
+															<li><p>Организуем такси в аэропорт на автомобиле любого класса</p></li>
+															<li><p>Оформим билеты на аэроэкспресс</p></li>
+														</ul>
+													</div>
+												</div>
+												<div class="case__item">
+													<div class="case__item-wrapper">
+														<div class="case__item-head">
+															<div class="img" style="background-image: url('img/img-case06.png');"></div>
+															<div class="text">
+																<span class="blue">06</span>
+																<p>Регистрация <br> и ожидание <br /> в аэропорту</p>
+															</div>
+														</div>
+														<ul class="case__item-list">
+															<li><p>Зарегистрируем на рейс онлайн, выберем место по Вашему пожеланию</p></li>
+															<li><p>Забронируем комфортабельный VIP-зал ожидания</p></li>
+															<li><p>Оформим ускоренное прохождение регистрации и таможенного контроля с сопровождением персонального ассистента</p></li>
+															<li><p>Учтем Ваши пожелания, если класс перелета предусматривает выбор блюд по меню</p></li>
+														</ul>
+													</div>
+												</div>
+												<div class="case__item">
+													<div class="case__item-wrapper">
+														<div class="case__item-head">
+															<div class="img" style="background-image: url('img/img-case07.png');"></div>
+															<div class="text">
+																<span class="orange">07</span>
+																<p>Встреча <br /> и трансфер в отель</p>
+															</div>
+														</div>
+														<ul class="case__item-list">
+															<li><p>Организуем персональную встречу в зале прилета</p></li>
+															<li><p>Забронируем комфортабельный VIP-зал ожидания</p></li>
+															<li><p>Организуем трансфер до отеля на гидросамолете или скоростном катере</p></li>
+														</ul>
+													</div>
+												</div>
+												<div class="case__item">
+													<div class="case__item-wrapper">
+														<div class="case__item-head">
+															<div class="img" style="background-image: url('img/img-case08.png');"></div>
+															<div class="text">
+																<span class="blue">08</span>
+																<p>Размещение <br /> в отеле</p>
+															</div>
+														</div>
+														<ul class="case__item-list">
+															<li><p>Свяжемся с отелем заблаговременно и напомним до Вашем прибытии</p></li>
+															<li><p>Гарантируем размещение в номере той категории, которую Вы выбрали</p></li>
+															<li><p>Обеспечим быстрое и комфортное заселение в номер</p></li>
+														</ul>
+													</div>
+												</div>
+												<div class="case__item">
+													<div class="case__item-wrapper">
+														<div class="case__item-head">
+															<div class="img" style="background-image: url('img/img-case09.png');"></div>
+															<div class="text">
+																<span>09</span>
+																<p>Поддержка <br /> во время отдыха</p>
+															</div>
+														</div>
+														<ul class="case__item-list">
+															<li><p>Решим любой вопрос, возникший во время отдыха в режиме 24/7</p></li>
+															<li><p>Организуем для молодоженов символическую свадебную церемонию</p></li>
+															<li><p>Поможем заказать экскурсии, SPA-процедуры и любые дополнительные услуги в отеле</p></li>
+														</ul>
+													</div>
+												</div>
+												<div class="case__item">
+													<div class="case__item-wrapper">
+														<div class="case__item-head">
+															<div class="img" style="background-image: url('img/img-case10.png');"></div>
+															<div class="text">
+																<span class="green">10</span>
+																<p>Программа <br /> отдыха</p>
+															</div>
+														</div>
+														<ul class="case__item-list">
+															<li><p>Организуем круиз по атоллам на комфортабельной яхте</p></li>
+															<li><p>Проведем увлекательное дайв-сафари</p></li>
+															<li><p>Предложим на выбор активные виды отдыха</p></li>
+															<li><p>Организуем дневную или ночную рыбалку</p></li>
+															<li><p>Предоставим возможность поплавать с дельфинами, мантами и китовыми акулами</p></li>
+														</ul>
+													</div>
+												</div>
+												<div class="case__item">
+													<div class="case__item-wrapper">
+														<div class="case__item-head">
+															<div class="img" style="background-image: url('img/img-case11.png');"></div>
+															<div class="text">
+																<span class="yellow">11</span>
+																<p>Возвращение <br /> домой</p>
+															</div>
+														</div>
+														<ul class="case__item-list">
+															<li><p>Организуем и проконтролируем трансфер в аэропорт </p></li>
+															<li><p>Поможем зарегистрироваться на рейс</p></li>
+															<li><p>Закажем такси до дома, если необходимо</p></li>
+															<li><p>Свяжемся с Вами после возвращения в целях контроля качества обслуживания</p></li>
+														</ul>
+													</div>
+												</div>
 											</div>
+											<div class="slider-case-arrows clearfix"></div>
 										</div>
-										<ul class="case__item-list">
-											<li><p>Расскажем о самых выгодных акциях и спецпредложениях</p></li>
-											<li><p>Подберем отель исходя из Ваших ожиданий от отдыха</p></li>
-											<li><p>Свяжемся напрямую с отелем, если нужно уточнить детали</p></li>
-											<li><p>Порекомендуем отели 4*, 5* и 5 deluxe, в которых мы были сами, либо были наши партнеры</p></li>
-											<li><p>Зарезервируем номер без предоплаты</p></li>
-										</ul>
-									</div>
-									<div class="case__item">
-										<div class="case__item-head">
-											<div class="img" style="background-image: url('img/img-case05.png');"></div>
-											<div class="text">
-												<span class="orange">05</span>
-												<p>Трансфер <br /> в аэропорт</p>
-											</div>
-										</div>
-										<ul class="case__item-list">
-											<li><p>Организуем такси в аэропорт на автомобиле любого класса</p></li>
-											<li><p>Оформим билеты на аэроэкспресс</p></li>
-										</ul>
-									</div>
-									<div class="case__item">
-										<div class="case__item-head">
-											<div class="img" style="background-image: url('img/img-case09.png');"></div>
-											<div class="text">
-												<span>09</span>
-												<p>Поддержка <br /> во время отдыха</p>
-											</div>
-										</div>
-										<ul class="case__item-list">
-											<li><p>Решим любой вопрос, возникший во время отдыха в режиме 24/7</p></li>
-											<li><p>Организуем для молодоженов символическую свадебную церемонию</p></li>
-											<li><p>Поможем заказать экскурсии, SPA-процедуры и любые дополнительные услуги в отеле</p></li>
-										</ul>
-									</div>
-								</div>
-								<div class="col-md-3 padding">
-									<div class="case__item">
-										<div class="case__item-head">
-											<div class="img" style="background-image: url('img/img-case02.png');"></div>
-											<div class="text">
-												<span class="orange">02</span>
-												<p>Подбор и бронь авиабилетов</p>
-											</div>
-										</div>
-										<ul class="case__item-list">
-											<li><p>Выберем удобный перелет по датам и авиакомпаниям, никаких чартерных рейсов</p></li>
-											<li><p>Найдем прямой рейс или подходящие, минимальные по времени стыковки</p></li>
-											<li><p>Обеспечим самые низкие тарифы на дату</p></li>
-											<li><p>Бронируем без предоплаты</p></li>
-										</ul>
-									</div>
-									<div class="case__item">
-										<div class="case__item-head">
-											<div class="img" style="background-image: url('img/img-case06.png');"></div>
-											<div class="text">
-												<span class="blue">06</span>
-												<p>Регистрация <br> и ожидание <br /> в аэропорту</p>
-											</div>
-										</div>
-										<ul class="case__item-list">
-											<li><p>Зарегистрируем на рейс онлайн, выберем место по Вашему пожеланию</p></li>
-											<li><p>Забронируем комфортабельный VIP-зал ожидания</p></li>
-											<li><p>Оформим ускоренное прохождение регистрации и таможенного контроля с сопровождением персонального ассистента</p></li>
-											<li><p>Учтем Ваши пожелания, если класс перелета предусматривает выбор блюд по меню</p></li>
-										</ul>
-									</div>
-									<div class="case__item">
-										<div class="case__item-head">
-											<div class="img" style="background-image: url('img/img-case10.png');"></div>
-											<div class="text">
-												<span class="green">10</span>
-												<p>Программа <br /> отдыха</p>
-											</div>
-										</div>
-										<ul class="case__item-list">
-											<li><p>Организуем круиз по атоллам на комфортабельной яхте</p></li>
-											<li><p>Проведем увлекательное дайв-сафари</p></li>
-											<li><p>Предложим на выбор активные виды отдыха</p></li>
-											<li><p>Организуем дневную или ночную рыбалку</p></li>
-											<li><p>Предоставим возможность поплавать с дельфинами, мантами и китовыми акулами</p></li>
-										</ul>
-									</div>
-								</div>
-								<div class="col-md-3 padding">
-									<div class="case__item">
-										<div class="case__item-head">
-											<div class="img" style="background-image: url('img/img-case03.png');"></div>
-											<div class="text">
-												<span class="green">03</span>
-												<p>Оформления документов</p>
-											</div>
-										</div>
-										<ul class="case__item-list">
-											<li><p>Оформим вовремя все необходимые документы для поездки </p></li>
-											<li><p>Расскажем, как заполнить миграционную карту по прилету</p></li>
-											<li><p>Поможем оформить туристическую визу, если срок пребывания на Мальдивах превысит 1 месяц</p></li>
-										</ul>
-									</div>
-									<div class="case__item">
-										<div class="case__item-head">
-											<div class="img" style="background-image: url('img/img-case07.png');"></div>
-											<div class="text">
-												<span class="orange">07</span>
-												<p>Встреча <br /> и трансфер в отель</p>
-											</div>
-										</div>
-										<ul class="case__item-list">
-											<li><p>Организуем персональную встречу в зале прилета</p></li>
-											<li><p>Забронируем комфортабельный VIP-зал ожидания</p></li>
-											<li><p>Организуем трансфер до отеля на гидросамолете или скоростном катере</p></li>
-										</ul>
-									</div>
-									<div class="case__item">
-										<div class="case__item-head">
-											<div class="img" style="background-image: url('img/img-case11.png');"></div>
-											<div class="text">
-												<span class="yellow">11</span>
-												<p>Возвращение <br /> домой</p>
-											</div>
-										</div>
-										<ul class="case__item-list">
-											<li><p>Организуем и проконтролируем трансфер в аэропорт </p></li>
-											<li><p>Поможем зарегистрироваться на рейс</p></li>
-											<li><p>Закажем такси до дома, если необходимо</p></li>
-											<li><p>Свяжемся с Вами после возвращения в целях контроля качества обслуживания</p></li>
-										</ul>
-									</div>
-								</div>
-								<div class="col-md-3 padding">
-									<div class="case__item">
-										<div class="case__item-head">
-											<div class="img" style="background-image: url('img/img-case04.png');"></div>
-											<div class="text">
-												<span class="yellow">04</span>
-												<p>Оформление страховки</p>
-											</div>
-										</div>
-										<ul class="case__item-list">
-											<li><p>Оформим медицинский полис от ведущих страховых компаний России на лучших условиях</p></li>
-											<li><p>Предложим расширенную страховку, если Вы увлечены активными видами отдыха</p></li>
-											<li><p>Оформим страховку от невыезда по Вашему желанию</p></li>
-										</ul>
-									</div>
-									<div class="case__item">
-										<div class="case__item-head">
-											<div class="img" style="background-image: url('img/img-case08.png');"></div>
-											<div class="text">
-												<span class="blue">08</span>
-												<p>Размещение <br /> в отеле</p>
-											</div>
-										</div>
-										<ul class="case__item-list">
-											<li><p>Свяжемся с отелем заблаговременно и напомним до Вашем прибытии</p></li>
-											<li><p>Гарантируем размещение в номере той категории, которую Вы выбрали</p></li>
-											<li><p>Обеспечим быстрое и комфортное заселение в номер</p></li>
-										</ul>
 									</div>
 								</div>
 							</div>
@@ -937,23 +1020,25 @@
 		<div class="beside">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
-						<div class="beside-left">
-							<div class="iphone">
-
-							</div>
-						</div>
-					</div>
-					<div class="col-md-8">
+					<div class="col-md-12">
 						<div class="beside-right">
-							<div class="title">
-								<h2>Даже за тысячи километров <br />мы рядом с вами 24/7</h2>
-								<p>При оформлении тура, Вы получаете отдельный <br /> телефонный номер, который всегда свободен. </p>
-								<p>Независимо от разницы во времени, мы мгновенно окажем <br /> Вам профессиональную поддержку по любому вопросу.</p>
-							</div>
-							<div class="beside__btn">
-								<a href="#" class="btn btn-sm btn-pink"><span>Получить консультацию</span></a>
-								<a href="#" class="btn btn-sm btn-green btn-wts"><span><i class="icon icon-wts"></i>Написать в whatsapp</span></a>
+							<div class="beside-right-wrap">
+								<div class="title">
+									<h2>Даже за тысячи километров <br />мы рядом с вами 24/7</h2>
+								</div>
+								<div class="beside-right-wrapper clearfix">
+									<div class="iphone-wrapper">
+										<div class="iphone"></div>
+									</div>
+									<div class="beside-text">
+										<p>При оформлении тура, Вы получаете отдельный <br /> телефонный номер, который всегда свободен. </p>
+										<p>Независимо от разницы во времени, мы мгновенно окажем <br /> Вам профессиональную поддержку по любому вопросу.</p>
+									</div>
+								</div>
+								<div class="beside__btn">
+									<a href="#" class="btn btn-sm btn-pink"><span>Получить консультацию</span></a>
+									<a href="#" class="btn btn-sm btn-green btn-wts"><span><i class="icon icon-wts"></i>Написать в whatsapp</span></a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -967,8 +1052,8 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="title reviews-title">
-							<div class="slider__arrow"></div>
 							<h2>Почитайте, что говорят <br /> об отдыхе наши клиенты</h2>
+							<div class="slider__arrow"></div>
 						</div>
 					</div>
 					<div class="col-md-12">
@@ -1300,28 +1385,28 @@
 							<!-- team BEGIN -->
 							<div class="team">
 								<div class="row">
-									<div class="col-md-3">
+									<div class="col-md-3 col-xs-6">
 										<div class="team-item">
 											<div class="img" style="background-image: url('img/img-team-00.png');"></div>
 											<span>Лаура Потапова</span>
 											<p>Эксперт по региону <br />Индийский океан</p>
 										</div>
 									</div>
-									<div class="col-md-3">
+									<div class="col-md-3 col-xs-6">
 										<div class="team-item">
 											<div class="img" style="background-image: url('img/img-team-01.png');"></div>
 											<span>Лаура Потапова</span>
 											<p>Эксперт по региону <br />Индийский океан</p>
 										</div>
 									</div>
-									<div class="col-md-3">
+									<div class="col-md-3 col-xs-6">
 										<div class="team-item">
 											<div class="img" style="background-image: url('img/img-team-00.png');"></div>
 											<span>Лаура Потапова</span>
 											<p>Эксперт по региону <br />Индийский океан</p>
 										</div>
 									</div>
-									<div class="col-md-3">
+									<div class="col-md-3 col-xs-6">
 										<div class="team-item">
 											<div class="img" style="background-image: url('img/img-team-01.png');"></div>
 											<span>Лаура Потапова</span>
@@ -1389,73 +1474,36 @@
 									<div class="ipad-wrapper">
 										<div class="ipad-content">
 											<div class="ipad-top">
-												<div class="ipad-card">
-													<div class="img">
-														<img src="img/mers.png" alt="img">
-													</div>
-													<span>Трансфер в аэропорт беслпатно</span>
-													<p>При заполнении заявки на расчет стоимости до 7 декабря 2017</p>
-												</div>
 												<div class="title">
 													<h3>Мы предложим вам тур <br /> из расчета ваших ожиданий, бронируем без предоплаты</h3>
-													<p>Наш эксперт по Мальдивам`перезвонит Вам в течение 10 минут</p>
+													<p>Наш эксперт по Мальдивам перезвонит <span>Вам в течение 10 минут</span></p>
 												</div>
 											</div>
 											<div class="ipad-form">
 												<form action="/" class="form">
 													<div class="row">
-														<div class="col-md-3">
+														<div class="col-md-3 col-xs-6">
 															<div class="form-group">
 																<div class="form-input">
 																	<input type="text" class="form-control" placeholder="Ваш телефон">
 																</div>
 															</div>
 														</div>
-														<div class="col-md-3">
+														<div class="col-md-3 col-xs-6">
 															<div class="form-group">
 																<div class="form-input">
 																	<input type="text" class="form-control" placeholder="Ваш телефон">
 																</div>
 															</div>
 														</div>
-														<div class="col-md-3">
+														<div class="col-md-3 col-xs-6">
 															<div class="form-group">
 																<div class="form-input">
 																	<input type="text" class="form-control" placeholder="Ваш телефон">
 																</div>
 															</div>
 														</div>
-														<div class="col-md-3">
-															<div class="form-group">
-																<div class="form-input">
-																	<input type="text" class="form-control" placeholder="Ваш телефон">
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-md-3">
-															<div class="form-group">
-																<div class="form-input">
-																	<input type="text" class="form-control" placeholder="Ваш телефон">
-																</div>
-															</div>
-														</div>
-														<div class="col-md-3">
-															<div class="form-group">
-																<div class="form-input">
-																	<input type="text" class="form-control" placeholder="Ваш телефон">
-																</div>
-															</div>
-														</div>
-														<div class="col-md-3">
-															<div class="form-group">
-																<div class="form-input">
-																	<input type="text" class="form-control" placeholder="Ваш телефон">
-																</div>
-															</div>
-														</div>
-														<div class="col-md-3">
+														<div class="col-md-3 col-xs-6">
 															<div class="form-group">
 																<div class="form-input">
 																	<input type="text" class="form-control" placeholder="Ваш телефон">
@@ -1464,28 +1512,58 @@
 														</div>
 													</div>
 													<div class="row">
-														<div class="col-md-3">
+														<div class="col-md-3 col-xs-6">
 															<div class="form-group">
 																<div class="form-input">
 																	<input type="text" class="form-control" placeholder="Ваш телефон">
 																</div>
 															</div>
 														</div>
-														<div class="col-md-3">
+														<div class="col-md-3 col-xs-6">
 															<div class="form-group">
 																<div class="form-input">
 																	<input type="text" class="form-control" placeholder="Ваш телефон">
 																</div>
 															</div>
 														</div>
-														<div class="col-md-3">
+														<div class="col-md-3 col-xs-6">
 															<div class="form-group">
 																<div class="form-input">
 																	<input type="text" class="form-control" placeholder="Ваш телефон">
 																</div>
 															</div>
 														</div>
-														<div class="col-md-3">
+														<div class="col-md-3 col-xs-6">
+															<div class="form-group">
+																<div class="form-input">
+																	<input type="text" class="form-control" placeholder="Ваш телефон">
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-md-3 col-xs-6">
+															<div class="form-group">
+																<div class="form-input">
+																	<input type="text" class="form-control" placeholder="Ваш телефон">
+																</div>
+															</div>
+														</div>
+														<div class="col-md-3 col-xs-6">
+															<div class="form-group">
+																<div class="form-input">
+																	<input type="text" class="form-control" placeholder="Ваш телефон">
+																</div>
+															</div>
+														</div>
+														<div class="col-md-3 col-xs-6">
+															<div class="form-group">
+																<div class="form-input">
+																	<input type="text" class="form-control" placeholder="Ваш телефон">
+																</div>
+															</div>
+														</div>
+														<div class="col-md-3 col-xs-6">
 															<div class="form-group text-center">
 																<button type="submit" class="btn btn-form"><span>Рассчитать <br />стоимость</span></button>
 															</div>
@@ -1495,14 +1573,22 @@
 												<div class="ipad-form-footer">
 													<div class="row">
 														<div class="col-md-12">
-															<a href="#" class="preview__form-btn active"><i class="icon icon-arrow-form"></i>Свернуть форму</a>
 															<p class="text">
 																Оставляя заявку, вы даете согласие на обработку <a href="#">персональных данных</a>
 															</p>
+															<a href="#" class="preview__form-btn active"><i class="icon icon-arrow-form"></i>Свернуть форму</a>
 														</div>
 													</div>
 												</div>
 											</div>
+										</div>
+										<div class="ipad-card">
+											<div class="img">
+												<img src="img/mers.png" class="img-mers" alt="img">
+												<img src="img/mers-m.png" class="img-mers img-mers-m" alt="img">
+											</div>
+											<span>Трансфер в аэропорт беслпатно</span>
+											<p>При заполнении заявки на расчет стоимости до 7 декабря 2017</p>
 										</div>
 									</div>
 								</div>
@@ -1524,7 +1610,7 @@
 													<li>Выгодные цены на авиабилеты</li>
 													<li>Ориентировочную программу путешествия</li>
 												</ul>
-												<div class="img">
+												<div class="img text-center">
 													<img src="img/letter-shape.png" alt="img">
 												</div>
 											</div>
@@ -1588,6 +1674,13 @@
 <footer class="footer">
 	<div class="container">
 		<div class="row">
+			<div class="col-md-6 text-right pull-right">
+				<div class="header__contacts footer__contacts">
+					<a href="tel:+74991223112" class="phone phone-small">+7 (499) 122-3-112</a>
+					<p>с понедельника по субботу с 10 до 19 <br /> для отдыхающих ежедневно 24/7</p>
+				</div>
+				<a href="#" class="btn footer-btn"><span>Обратный звонок</span></a>
+			</div>
 			<div class="col-md-6">
 				<a href="#" class="logo header-logo">
 					<img src="img/logo-footer.png" alt="logo">
@@ -1595,13 +1688,6 @@
 				<div class="footer__copyright">
 					2010-2017 © ООО «Царство Островов», <br /> ОГРН 1117746772461, КПП 7715885410, ИНН 771501001, <br /> номер в реестре турагентств: KT100155.
 				</div>
-			</div>
-			<div class="col-md-6 text-right">
-				<div class="header__contacts footer__contacts">
-					<a href="tel:+74991223112" class="phone phone-small">+7 (499) 122-3-112</a>
-					<p>с понедельника по субботу с 10 до 19 <br /> для отдыхающих ежедневно 24/7</p>
-				</div>
-				<a href="#" class="btn footer-btn"><span>Обратный звонок</span></a>
 			</div>
 		</div>
 	</div>
@@ -1626,6 +1712,7 @@
 	<script src="js/vendor/jquery-3.1.1.min.js"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>
 	<script src="js/vendor/bootstrap-select.min.js"></script>
+	<script src="js/vendor/masonry.pkgd.min.js"></script>
 	<script src="js/vendor/slick.min.js"></script>
 	<script src="js/app.js"></script>
 	<!-- script end -->
